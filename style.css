@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("images/bg-intro-desktop.png");
+}
+main{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    /* text-align: center; */
+    justify-content: center;
+    height:100vh;
+}
