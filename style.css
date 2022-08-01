@@ -4,12 +4,17 @@
 }
 body{
     background-image: url("images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    opacity: 1;
 }
 main{
     display: flex;
     width: 60%;
-    margin: auto;
+    margin: 50px auto ;
     /* text-align: center; */
     justify-content: center;
     height:100vh;
+}
+.container-1{
+    color: white;
 }
