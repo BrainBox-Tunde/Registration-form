@@ -6,6 +6,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 body{
@@ -18,7 +19,7 @@ body{
 
 main{
     display: flex;
-    width: 70%;
+    width: 50%;
     margin: auto ; 
     justify-content: center;
     height:100vh;
@@ -49,13 +50,32 @@ h1{
     text-align: center;
     border-radius: 10px;
 }
-form{
+.item-bottom{
     background-color: white;
-    padding:2em;
+    padding:1.4em;
     border-radius: 10px;
 }
 form input{
-    margin-bottom: 1.2em;
+    margin: 1.2em;
     width: 80%;
     padding: 1.2em;
+}
+button{
+    padding: 1.2em;
+    width: 90%;
+    margin:1.2em;
+    background-color: hsl(154, 59%, 51%);
+    border: solid 2px green;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.terms-text{
+    font-size: 10px;
+    text-align: center;
+}
+a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
 }
